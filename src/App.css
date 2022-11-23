@@ -1,6 +1,5 @@
 .header {
-  display: flex;
-  justify-content: space-between;
+  text-align: center;
 }
 .quiz {
   text-align: center;
