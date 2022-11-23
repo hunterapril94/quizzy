@@ -1,5 +1,5 @@
 import logo from './logo.svg';
-import './App.css';
+import './custom.scss';
 import Header from './components/Header';
 import Quiz from './components/Quiz';
 

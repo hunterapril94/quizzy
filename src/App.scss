@@ -1,0 +1,21 @@
+@import '../node_modules/bootstrap/scss/bootstrap';
+
+$primary: #F61067;
+$danger: #ff4136;
+
+body {
+  background-color: #5E239D;
+}
+.header {
+  text-align: center;
+}
+.quiz {
+  text-align: center;
+}
+.select {
+  display: flex;
+  flex-direction: column;
+}
+button {
+  margin-top: 20px;
+}

@@ -1,0 +1,27 @@
+$primary:#107E7D;
+$light: #F4F4ED;
+
+@import '~bootstrap/scss/bootstrap.scss';
+
+body {
+  background-color: #5E239D;
+}
+.header {
+  text-align: center;
+}
+.quiz {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+.select {
+  display: flex;
+  flex-direction: column;
+}
+.question {
+  display: flex;
+  flex-direction: column;
+}
+button {
+  margin-top: 20px;
+}
