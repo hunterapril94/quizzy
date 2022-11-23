@@ -1,6 +1,6 @@
 import Question from "./Question"
 import Select from "./Select"
-import { useState } from "react"
+import { useEffect, useState } from "react"
 import Results from "./Results"
 
 export default function Quiz() {
@@ -11,7 +11,8 @@ export default function Quiz() {
     A: 0,
     B: 0,
     C: 0,
-    D: 0
+    D: 0,
+    Final: ''
   })
 
   const onClickSelect = function(id) {
@@ -21,14 +22,27 @@ export default function Quiz() {
     console.log(display)
   }
   const onClickQuestion = function(id) {
-    setResults({...results, id: results[id]+1 })
+    let newNumber = results[id] + 1
+    let number = 0
+    let final = ''
+    for(const result in results) {
+      if(results[result] > number) {
+        number = results[result]
+        final = result
+      }
+    }
+    if(newNumber > number) {
+      final = id
+    }
+    setResults({...results, [id]: newNumber, Final: final })
     question === 5 ? setDisplay('results') : setQuestion(question+1)
+    console.log(results)
   }
   return(
     <div className="quiz">
       {display === 'select' ? <Select onClick = {onClickSelect} /> : ''}
       {display === 'question' ? <Question id={quiz} onClick={onClickQuestion} question={question} /> : ''}
-      {display === 'results' ? <Results /> : ''}
+      {display === 'results' ? <Results final={results.Final} quiz={quiz} /> : ''}
     </div>
   )
 }
