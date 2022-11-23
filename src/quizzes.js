@@ -1,5 +1,5 @@
-export const quizzes = {
-  1: {
+export const quizzes = 
+[  {
     title: 'What Great British Bake Off week are you?',
     answers: {
       A:{
@@ -20,7 +20,7 @@ export const quizzes = {
       }
     }    
   },
-  2: {
+  {
     title: "What color should you wear today?",
     answers: {
       A: {
@@ -40,7 +40,6 @@ export const quizzes = {
         description: 'You are genuine and sincere, and you take your responsibilities seriously. And your clothes should reflect that.'
       }
     }
-
   },
   // 3: {
   //   title: 'What Dog Breed Are You?',
@@ -84,4 +83,4 @@ export const quizzes = {
   //     }
   //   }
   // }
-}
+]
