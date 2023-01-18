@@ -145,42 +145,50 @@ export const questions = {
     // }
   ,
   // Dog Breed A = Husky, B = Daschund, C = Boston Terrier, D = Yorkshire Terrier
-  // 2: {
-  //   1: {
-  //     question: '',
-  //     A: '',
-  //     B: '',
-  //     C: '',
-  //     D: ''
-  //   },
-  //   2: {
-  //     question: '',
-  //     A: '',
-  //     B: '',
-  //     C: '',
-  //     D: ''
-  //   },
-  //   3: {
-  //     question: '',
-  //     A: '',
-  //     B: '',
-  //     C: '',
-  //     D: ''
-  //   },
-  //   4: {
-  //     question: '',
-  //     A: '',
-  //     B: '',
-  //     C: '',
-  //     D: ''
-  //   },
-  //   5: {
-  //     question: '',
-  //     A: '',
-  //     B: '',
-  //     C: '',
-  //     D: ''
-  //   },
+  2: [
+    {
+      question: 'What is your go-to comfort food?',
+      A: 'Ice',
+      B: 'Hot Dogs',
+      C: 'Filet Mignon',
+      D: "I just steal what's on your plate"
+    },
+    {
+      question: 'How do you prefer to spend your free time?',
+      A: 'Singing loudly to myself',
+      B: 'snuggled up in a cozy sweater',
+      C: 'Strolling around the neighborhood',
+      D: 'Going out on the town with my bestie'
+    },
+    {
+      question: 'How do you react in high-pressure situations?',
+      A: 'Make sure I get everyone to safety',
+      B: 'Back away and let the professionals handle it',
+      C: 'Shake in terror',
+      D: 'Start yelling and ordering people around'
+    },
+    {
+      question: 'What is your preferred method of communication?',
+      A: 'Talking face to face',
+      B: 'memes',
+      C: 'email',
+      D: 'texts full of emojis'
+    },
+    {
+      question: 'What is your favorite movie genre?',
+      A: 'Musical',
+      B: 'Rom Com',
+      C: 'Historical fiction',
+      D: 'Action'
+    },
+    {
+      question: 'What is your dream vacation destination?',
+      A: 'Is winter a place?',
+      B: 'Germany',
+      C: 'Buckingham Palace',
+      D: 'Ibiza'
+    }  
+  ]
   //   6: {
   //     question: '',
   //     A: '',

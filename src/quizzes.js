@@ -41,27 +41,27 @@ export const quizzes =
       }
     }
   },
-  // 3: {
-  //   title: 'What Dog Breed Are You?',
-  //   answers: {
-  //     A: {
-  //       title: 'Husky',
-  //       description: "not afraid to voice your feelings. When there's an injustice you're the first person to point it out."
-  //     },
-  //     B: {
-  //       title: 'Daschund',
-  //       description: 'brave, loyal, and a bit stubborn while being friendly enough to win over just about anyone.'
-  //     },
-  //     C: {
-  //       title: 'Boston Terrier',
-  //       description: 'silly and upbeat. Adaptable and happy in lots of circumstances.'
-  //     },
-  //     D: {
-  //       title: 'Yorkshire Terrier',
-  //       description: 'feisty, take-charge personality. Big personality in small, cuddly package.'
-  //     }
-  //   }
-  // },
+    {
+    title: 'What Dog Breed Are You?',
+    answers: {
+      A: {
+        title: 'Husky',
+        description: "not afraid to voice your feelings. When there's an injustice you're the first person to point it out."
+      },
+      B: {
+        title: 'Daschund',
+        description: 'brave, loyal, and a bit stubborn while being friendly enough to win over just about anyone.'
+      },
+      C: {
+        title: 'Boston Terrier',
+        description: 'silly and upbeat. Adaptable and happy in lots of circumstances.'
+      },
+      D: {
+        title: 'Yorkshire Terrier',
+        description: 'feisty, take-charge personality. Big personality in small, cuddly package.'
+      }
+    }
+  },
   // 4: {
   //   title: '',
   //   answers: {
